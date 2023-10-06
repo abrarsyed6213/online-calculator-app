@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'toward-azuredevops'
+    azureSubscription: 'Free Trial'
     appType: 'webAppLinux'
-    appName: 'webcalclu'
+    appName: 'abrarweb'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
