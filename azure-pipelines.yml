@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free Trial'
+    azureSubscription: 'towards-azure'
     appType: 'webAppLinux'
     appName: 'abrarweb'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
